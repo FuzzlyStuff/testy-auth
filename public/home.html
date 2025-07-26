@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Testy Feed</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to the Feed</h2>
+    <form id="commentForm">
+      <textarea id="commentInput" placeholder="Post your comment..."></textarea>
+      <button type="submit">Post</button>
+    </form>
+    <div id="feed"></div>
+    <form method="POST" action="/logout">
+      <button type="submit">Logout</button>
+    </form>
+  </div>
+  <script src="/public/script.js"></script>
+</body>
+</html>
